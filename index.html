@@ -59,18 +59,37 @@
     </main>
 
 
-    <section>
-        <h3>1.How does JavaScript work?</h3>
-        <p>Ans:</p>
+    <section class="main container mx-auto p-3">
+        <h4>1.How does JavaScript work?</h4>
+        <p>Ans:First combining together HTML and CSS by the DOM to make the web page. After that, the browsers
+            (javascript engine) stack the JavaScripts files and inline code. However, it doesn't run the code
+            instantly and wait for the HTML and CSS finish loading. After completing this works, the JavaScripts is
+            executed
+            in the order the code is written and then the result in the DOM being updated by JavaScripts and rendered by
+            the browsers</p>
 
-        <h3>2.What does JavaScript event loop do?</h3>
-        <p>Ans:</p>
-        <h3>What is the difference between local storage and session storsge?</h3>
-        <p>Ans:The main difference between Local Storage and Session Storage is that, the local storage kepts data that
-            has no expirations date. On the other hand, Session storage store data for the currently running session.
-            Local storage data can retrieve next day or years, however Session storage data will lost once browser tab
-            closed and can't be retrieve. Furthermore, on local storage you are able to change and saved data and will
-            be available without expirations date which is not possible on the Session storage. Local storage use for
+        <h4>2.What does JavaScript event loop do?</h4>
+        <p>Ans:Normally JavaScripts executes all operation on a single thread, however using event loop it give
+            JavaScripts the opportunity to perform multithreading. also event loop monitor the call stack as well
+            call
+            back queue. It simplifies the function and continuously checks whether or not the call stack is empty.
+            If
+            it
+            is then event loop added the new function from the event queue. Otherwise, the running function call
+            processed. In addition, event loop also responsible to execute the code, execute queue sub tasks along
+            with
+            collecting and processing events.</p>
+        <h4>What is the difference between local storage and session storsge?</h4>
+        <p>Ans:The main difference between Local Storage and Session Storage is that, the local storage kepts data
+            that
+            has no expirations date. On the other hand, Session storage store data for the currently running
+            session.
+            Local storage data can retrieve next day or years, however Session storage data will lost once browser
+            tab
+            closed and can't be retrieve. Furthermore, on local storage you are able to change and saved data and
+            will
+            be available without expirations date which is not possible on the Session storage. Local storage use
+            for
             long time purposes but Session storage for something temporary. In contrast, Local storage has limited
             characters stoage diffens on browser but Session Storage has unlimited characters storage.</p>
 
